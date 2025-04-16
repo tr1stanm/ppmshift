@@ -16,6 +16,7 @@ autosine - assigns a random value to each of the above variables and runs the pr
 sineanim - prompts user for number of frames to animate and applies a sine function to the image for that number of frames. outputs each resulting frame with name and number (in .png format to save space) in source folder. frames can be stitched together into an animation using quicktime or similar software.
 
 multiple flags can be used in the same program call. for example
+
 `./ppmshift myphoto.ppm colorswap biwave biwave colorswap flip sine`
 
 this file is then output into the source folder with the name myphoto_cbbcfs.ppm.
